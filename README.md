@@ -122,8 +122,9 @@ Notes: The other sub-folders under UCI HAR Dataset directory are not required to
 
  `library("plyr")`
     
- Load all required text files: Test, Train, Activities and features... using read.table
- i.e:   Load results of the study (Test or Train)...
+**Load all required text files: Test, Train, Activities and features.**
+
+(using read.table i.e:   Load results of the study (Test or Train)
 
 
     xTrain = read.table("UCI HAR Dataset/train/X_train.txt", header=FALSE)
