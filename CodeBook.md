@@ -51,23 +51,18 @@ in the data set. Be aware that each value is no longer the original value downlo
 
 - tBodyAccelerationMeanXaxis_colAVG 
 
-    Avegare of column mean of Time Body Accelaration in the Xaxis        		 ## seconds 
+    Avegare of column mean of Time Body Accelaration in the Xaxis  ## seconds 
 				 
-
 
 -  tBodyAccelerationMeanYaxis_colAVG 
   
- 	Avegare of  column mean of Time Body Accelaration in the Yaxis	
-		         ## seconds 
+	Avegare of column mean of Time Body Accelaration in the Yaxis ## seconds 
 				 
-
 
 -  tBodyAccelerationMeanZaxis_colAVG 
     
-	Avegare of  column mean of Time Body Accelaration in the Zaxis	
-				 ## seconds 
+	Avegare of  column mean of Time Body Accelaration in the Zaxis ## seconds 
 				 
-
 
 -  tBodyAccelerationStdXaxis_colAVG
 		
@@ -115,7 +110,6 @@ in the data set. Be aware that each value is no longer the original value downlo
 	Avegare of  column standard deviation of Time Gravity Accelaration in the Yaxis ## seconds	
 				 
 				 
- 
 - tGravityAccelerationStdZaxis_colAVG 
 
 	Avegare of  column standard deviation of Time Gravity Accelaration in the Zaxis ## seconds 
@@ -136,18 +130,17 @@ in the data set. Be aware that each value is no longer the original value downlo
 	Avegare of column mean of Time Body Acceleration Jerk in the Zaxis ## seconds
 				 
 
--  tBodyAccelerationJerkStdXaxis_colAVG 
+- tBodyAccelerationJerkStdXaxis_colAVG 
 
 	Avegare of column standard deviation of Time Body Acceleration Jerk in the Xaxis ## seconds	
 				 
  
-
 - tBodyAccelerationJerkStdYaxis_colAVG 
 		
 	Avegare of column standard deviation of Time Body Acceleration Jerk in the Yaxis # seconds
 				 
 
--  tBodyAccelerationJerkStdZaxis_colAVG
+- tBodyAccelerationJerkStdZaxis_colAVG
 		
 	Avegare of column standard deviation of Time Body Acceleration Jerk in the Zaxis ## seconds
 				 
@@ -157,7 +150,7 @@ in the data set. Be aware that each value is no longer the original value downlo
 	Avegare of  column mean of Time Body Movement in the Xaxis direction ## seconds	
 				 
 
--  tBodyGyroscopeMeanYaxis_colAVG 
+- tBodyGyroscopeMeanYaxis_colAVG 
 
 	Avegare of  column mean of Time Body Movement in the Yaxis direction ## seconds
 				 
@@ -166,19 +159,19 @@ in the data set. Be aware that each value is no longer the original value downlo
 	Avegare of  column mean of Time Body Movement in the ZXaxis direction ## seconds	
 				 
 
--  tBodyGyroscopeStdXaxis_colAVG 
+- tBodyGyroscopeStdXaxis_colAVG 
 
 	Avegare of  column standard deviation of Time Body Movement in the Xaxis direction	## seconds
 				 
  
 - tBodyGyroscopeStdYaxis_colAVG
 
-	Avegare of  column standard deviation of Time Body Movement in the Yaxis direction ## seconds
-				 seconds 
+	Avegare of column standard deviation of Time Body Movement in the Yaxis direction ## seconds
 				 
- - tBodyGyroscopeStdZaxis_colAVG 
+				 
+- tBodyGyroscopeStdZaxis_colAVG 
 
-	Avegare of  column standard deviation of Time Body Movement in the Zaxis direction	## seconds
+	Avegare of column standard deviation of Time Body Movement in the Zaxis direction	## seconds
 				 
 
 - tBodyGyroscopeJerkMeanXaxis_colAVG
@@ -188,46 +181,46 @@ in the data set. Be aware that each value is no longer the original value downlo
  
 - tBodyGyroscopeJerkMeanYaxis_colAVG
 
-	Avegare of  column means of Time Body Accelaration Jerk in the Yaxis ## seconds
+	Avegare of column means of Time Body Accelaration Jerk in the Yaxis ## seconds
 				 
 
--  tBodyGyroscopeJerkMeanZaxis_colAVG
+- tBodyGyroscopeJerkMeanZaxis_colAVG
 	
-	Avegare of  column means of Time Body Accelaration Jerk in the Zaxis ## seconds
+	Avegare of column means of Time Body Accelaration Jerk in the Zaxis ## seconds
 				 
 
--  tBodyGyroscopeJerkStdXaxis_colAVG 
+- tBodyGyroscopeJerkStdXaxis_colAVG 
 
-	Avegare of  column standard deviation of Time of Body Accelaration Jerk in the Xaxis ## seconds
+	Avegare of column standard deviation of Time of Body Accelaration Jerk in the Xaxis ## seconds
 				 
 
 - tBodyGyroscopeJerkStdYaxis_colAVG 
 
-	Avegare of  column standard deviation of Time of Body Accelaration Jerk in the Yaxis	## seconds
+	Avegare of column standard deviation of Time of Body Accelaration Jerk in the Yaxis	## seconds
 				 
 
--  tBodyGyroscopeJerkStdZaxis_colAVG
+- tBodyGyroscopeJerkStdZaxis_colAVG
 
-	Avegare of  column standard deviation of Time  of Body Accelaration Jerk in the Zaxis	## seconds
+	Avegare of column standard deviation of Time  of Body Accelaration Jerk in the Zaxis ## seconds
 				 
 
--  tBodyAccelerationMagnitudeMean_colAVG 
+- tBodyAccelerationMagnitudeMean_colAVG 
 
 	Avegare of  column mean of Time Body Acceleration Magnitude ## seconds
 			
 
 - tBodyAccelerationMagnitudeStd_colAVG
 		
-	Avegare of  column standard deviation of Time Body Acceleration Magnitude ## seconds
+	Avegare of column standard deviation of Time Body Acceleration Magnitude ## seconds
 				 
 
 - tGravityAccelerationMagnitudeMean_colAVG
 		
 	Avegare of  column mean of Time Gravity Acceleration  Magnitude ## seconds	
 	
--  tGravityAccelerationMagnitudeStd_colAVG
+- tGravityAccelerationMagnitudeStd_colAVG
 
-	Avegare of  column standard deviation of Time Gravity Acceleration Magnitude ## seconds
+	Avegare of column standard deviation of Time Gravity Acceleration Magnitude ## seconds
 				 
 
 - tBodyAccelerationJerkMagnitudeMean_colAVG 
@@ -235,133 +228,133 @@ in the data set. Be aware that each value is no longer the original value downlo
 	Avegare of column mean of Time Body Acceleration Jerk Magnitude ## seconds 
 				 
 
--  tBodyAccelerationJerkMagnitudeStd_colAVG 
+- tBodyAccelerationJerkMagnitudeStd_colAVG 
 
-	Avegare of  column standard deviation of Time Body Acceleration Jerk Magnitude ## seconds 
+	Avegare of column standard deviation of Time Body Acceleration Jerk Magnitude ## seconds 
 				 
  
 - tBodyGyroscopeMagnitudeMean_colAVG
 
-	Avegare of  column mean of Time Body Movement  Magnitude ## seconds 
+	Avegare of column mean of Time Body Movement  Magnitude ## seconds 
 				 
 
--  tBodyGyroscopeMagnitudeStd_colAVG 
+- tBodyGyroscopeMagnitudeStd_colAVG 
 	
-	Avegare of  column standard deviation of Time  Body Movement Magnitude ## seconds
+	Avegare of column standard deviation of Time  Body Movement Magnitude ## seconds
 				
 
--  tBodyGyroscopeJerkMagnitudeMean_colAVG 
+- tBodyGyroscopeJerkMagnitudeMean_colAVG 
 
 	Avegare of column mean of Time Body Movement  Jerk Magnitude ##	 seconds 
 				 
  
 - tBodyGyroscopeJerkMagnitudeStd_colAVG
 
-	Avegare of  column standard deviation of Time  Body Movement Jerk Magnitude ## seconds 
+	Avegare of column standard deviation of Time  Body Movement Jerk Magnitude ## seconds 
 				 
  
 - fBodyAccelerationMeanXaxis_colAVG 
 
 	Avegare of column mean of Frequency Body Accelaration in the Xaxis ## Hz 
 				 
--  fBodyAccelerationMeanYaxis_colAVG 
+- fBodyAccelerationMeanYaxis_colAVG 
 
-	Avegare of  column mean of Frequency Body Accelaration in the Yaxis ## Hz 
+	Avegare of column mean of Frequency Body Accelaration in the Yaxis ## Hz 
 				 
  
 - fBodyAccelerationMeanZaxis_colAVG 
 
-	Avegare of  column mean of Frequency Body Accelaration in the Zaxis ## Hz 
+	Avegare of column mean of Frequency Body Accelaration in the Zaxis ## Hz 
 				 
  
 - fBodyAccelerationStdXaxis_colAVG
 
 	Avegare of  column mean deviation of Frequency Body Accelaration in the Xaxis ## Hz 
 				 
--  fBodyAccelerationStdYaxis_colAVG
+- fBodyAccelerationStdYaxis_colAVG
 
-	Avegare of  column standard deviation of Frequency Body Accelaration in the Yaxis ## Hz 
+	Avegare of column standard deviation of Frequency Body Accelaration in the Yaxis ## Hz 
 				 
--  fBodyAccelerationStdZaxis_colAVG 
+- fBodyAccelerationStdZaxis_colAVG 
 
 	Avegare of  column  std of Frequency Body Accelaration in the Zaxis ## Hz 
 				 
- - fBodyAccelerationJerkMeanXaxis_colAVG 
+- fBodyAccelerationJerkMeanXaxis_colAVG 
 
-	Avegare of  column means of Frequency Body Accelaration Jerk in the Xaxis ## Hz 
+	Avegare of column means of Frequency Body Accelaration Jerk in the Xaxis ## Hz 
 				 
--  fBodyAccelerationJerkMeanYaxis_colAVG 
+- fBodyAccelerationJerkMeanYaxis_colAVG 
 
-	Avegare of  column means of Frequency Body Accelaration Jerk in the Yaxis ## Hz 
+	Avegare of column means of Frequency Body Accelaration Jerk in the Yaxis ## Hz 
 				 
--  fBodyAccelerationJerkMeanZaxis_colAVG 
+- fBodyAccelerationJerkMeanZaxis_colAVG 
 
-	Avegare of  column means of Frequency Body Accelaration Jerk in the Zaxis ## Hz
+	Avegare of column means of Frequency Body Accelaration Jerk in the Zaxis ## Hz
 				 
 				
 - fBodyAccelerationJerkStdXaxis_colAVG
 
-	Avegare of  column standard deviation of Frequency of Body Accelaration Jerk in the Xaxis	## Hz
+	Avegare of column standard deviation of Frequency of Body Accelaration Jerk in the Xaxis	## Hz
 				 
  
 - fBodyAccelerationJerkStdYaxis_colAVG 
 
-	Avegare of  column standard deviation of Frequency of Body Accelaration Jerk in the Yaxis ## Hz 
+	Avegare of column standard deviation of Frequency of Body Accelaration Jerk in the Yaxis ## Hz 
 				 
- - fBodyAccelerationJerkStdZaxis_colAVG 
+- fBodyAccelerationJerkStdZaxis_colAVG 
 
-	Avegare of  column standard deviation of Frequency of Body Accelaration Jerk in the Zaxis ## Hz 
+	Avegare of column standard deviation of Frequency of Body Accelaration Jerk in the Zaxis ## Hz 
 				 
- - fBodyGyroscopeMeanXaxis_colAVG 
+- fBodyGyroscopeMeanXaxis_colAVG 
 
-	Avegare of  column mean of Frequency Body Movement in the Xaxis direction ## Hz 
+	Avegare of column mean of Frequency Body Movement in the Xaxis direction ## Hz 
 				 
- - fBodyGyroscopeMeanYaxis_colAVG
+- fBodyGyroscopeMeanYaxis_colAVG
 
-	Avegare of  column mean of Frequency Body Movement in the Yaxis direction ## Hz 
+	Avegare of column mean of Frequency Body Movement in the Yaxis direction ## Hz 
 				 
--  fBodyGyroscopeMeanZaxis_colAVG 
+- fBodyGyroscopeMeanZaxis_colAVG 
 
-	Avegare of  column mean of Frequency Body Movement in the Zaxis direction ## Hz 
+	Avegare of column mean of Frequency Body Movement in the Zaxis direction ## Hz 
  
 
 - fBodyGyroscopeStdXaxis_colAVG 
 
-	Avegare of  column standard deviation of Frequency Body Movement in the Xaxis direction	## Hz
+	Avegare of column standard deviation of Frequency Body Movement in the Xaxis direction	## Hz
 				
 
 - fBodyGyroscopeStdYaxis_colAVG
 
-	Avegare of  column standard deviation of Frequency Body Movement in the Yaxis direction ## Hz
+	Avegare of column standard deviation of Frequency Body Movement in the Yaxis direction ## Hz
 				 
 
 - fBodyGyroscopeStdZaxis_colAVG
  
-	Avegare of  column standard deviation of Frequency Body Movement in the Zaxis direction	## Hz
+	Avegare of column standard deviation of Frequency Body Movement in the Zaxis direction	## Hz
 	
 
--  fBodyAccelerationMagnitudeMean_colAVG 
+- fBodyAccelerationMagnitudeMean_colAVG 
 	
-	Avegare of  column mean of Frequency Body Acceleration Magnitude  ##  Hz 
+	Avegare of column mean of Frequency Body Acceleration Magnitude  ##  Hz 
 				 
- - fBodyAccelerationMagnitudeStd_colAVG 
+- fBodyAccelerationMagnitudeStd_colAVG 
  
-	Avegare of  column standard deviation of Frequency Body Acceleration Magnitude ## Hz
+	Avegare of column standard deviation of Frequency Body Acceleration Magnitude ## Hz
 				
 
--  fBodyAccelerationJerkMagnitudeMean_colAVG 
+- fBodyAccelerationJerkMagnitudeMean_colAVG 
 		
-	Avegare of  column mean of Frequency Body Acceleration Jerk Magnitude ## Hz
+	Avegare of column mean of Frequency Body Acceleration Jerk Magnitude ## Hz
 				  
 
--  fBodyAccelerationJerkMagnitudeStd_colAVG 
+- fBodyAccelerationJerkMagnitudeStd_colAVG 
 
-	Avegare of  column standard deviation of Frequency Body Acceleration Jerk Magnitude ## Hz 
+	Avegare of column standard deviation of Frequency Body Acceleration Jerk Magnitude ## Hz 
 				 
 
--  fBodyGyroscopeMagnitudeMean_colAVG 
+- fBodyGyroscopeMagnitudeMean_colAVG 
 
-	Avegare of column mean of Frequency Body Movement Magnitude ## Hz 
+	Avegare ofcolumn mean of Frequency Body Movement Magnitude ## Hz 
 				 
  
 - fBodyGyroscopeMagnitudeStd_colAVG 
@@ -371,17 +364,19 @@ in the data set. Be aware that each value is no longer the original value downlo
 
 - fBodyGyroscopeJerkMagnitudeMean_colAVG
 
-	Avegare of  column mean of Frequency Body Movement Jerk Magnitude ## Hz 
+	Avegare of column mean of Frequency Body Movement Jerk Magnitude ## Hz 
 				 
 
--  fBodyGyroscopeJerkMagnitudeStd_colAVG 
+- fBodyGyroscopeJerkMagnitudeStd_colAVG 
 
-	Avegare of  column standard deviation of Frequency Body Movement Jerk Magnitude ## Hz 
+	Avegare of column standard deviation of Frequency Body Movement Jerk Magnitude ## Hz 
 
 
 **A sample of the data contained in this data set is shown below:**
 
 (Each records is formatted as Variable name: Data Type and few sample records)
+
+----------
 
 
 - Observations:	180
@@ -528,5 +523,8 @@ in the data set. Be aware that each value is no longer the original value downlo
 		 
 				 
 				 
-		
+	
+
+----------
+	
 
