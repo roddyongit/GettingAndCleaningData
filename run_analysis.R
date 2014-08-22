@@ -1,6 +1,9 @@
 run_analysis <- function() {
-
-        #-----------------------------------------------------------------------
+ 
+        # ----------------------------------------------------------------------
+        # Author: roddyongit
+        # Date last updated: 08-22-2014
+        # ----------------------------------------------------------------------
         # This script takes the files from the Samsung smartphones study
         # and transform them as follows:
         # 1. Combines (merges) the test and train data set into a single data set.
