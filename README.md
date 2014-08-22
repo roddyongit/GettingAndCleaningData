@@ -219,17 +219,28 @@ Remove all "-", "()"
 **Convert mean and std variable names to camel case naming convention and more meaningful**
 
 `tidyVarNames = gsub("meanX","MeanXaxis",tidyVarNames)`
-`        tidyVarNames = gsub("meanY","MeanYaxis",tidyVarNames)`
-`        tidyVarNames = gsub("meanZ","MeanZaxis",tidyVarNames)`
-`        tidyVarNames = gsub("stdX","StdXaxis",tidyVarNames)`
-`        tidyVarNames = gsub("stdY","StdYaxis",tidyVarNames)`
-`        tidyVarNames = gsub("stdZ","StdZaxis",tidyVarNames)`
-`        tidyVarNames = gsub("mean","Mean",tidyVarNames)`
-`        tidyVarNames = gsub("std","Std",tidyVarNames)        `
-`        tidyVarNames = gsub("Acc","Acceleration",tidyVarNames)`    
-`        tidyVarNames = gsub("Mag","Magnitude",tidyVarNames)   `   
-`        tidyVarNames = gsub("Gyro","Gyroscope",tidyVarNames)  `   
-`        tidyVarNames = gsub("BodyBody","Body",tidyVarNames)   `   
+
+`tidyVarNames = gsub("meanY","MeanYaxis",tidyVarNames)`
+
+`tidyVarNames = gsub("meanZ","MeanZaxis",tidyVarNames)`
+
+`tidyVarNames = gsub("stdX","StdXaxis",tidyVarNames)`
+
+`tidyVarNames = gsub("stdY","StdYaxis",tidyVarNames)`
+
+`tidyVarNames = gsub("stdZ","StdZaxis",tidyVarNames)`
+
+`tidyVarNames = gsub("mean","Mean",tidyVarNames)`
+
+`tidyVarNames = gsub("std","Std",tidyVarNames)        `
+
+`tidyVarNames = gsub("Acc","Acceleration",tidyVarNames)`    
+
+`tidyVarNames = gsub("Mag","Magnitude",tidyVarNames)   `   
+
+`tidyVarNames = gsub("Gyro","Gyroscope",tidyVarNames)  `   
+
+`tidyVarNames = gsub("BodyBody","Body",tidyVarNames)   `   
 
 
 ----------
