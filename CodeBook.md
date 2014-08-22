@@ -10,7 +10,7 @@
 ----------
 
 > **Human activity recognition using smartphones.**
->  ***Code Book***
+>  
 > (Using original source data from: [www.smartlab.ws](www.smartlab.ws) )
 
 ----------
