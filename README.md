@@ -263,7 +263,7 @@ This file will not be uploaded to Coursera, it will only exist in the current wo
         
  **Project Requirement Step 5: Creates a second independent tidy data set with the average of each activity and each subject**
 
-This file will be uploaded to Coursera. This is the final data set.
+This file will be uploaded to Coursera. This is the final data set. The file name generated is: AvgAllBySubjectActivityDataSet2.txt
 
 `write.table(AvgAllBySubjectActivity, file = "AvgAllBySubjectActivityDataSet2.txt",      
  sep = ",", row.names=FALSE, quote=FALSE)`
