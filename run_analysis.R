@@ -15,6 +15,8 @@ run_analysis <- function() {
         
         
         # Load text files: Test, Train, Activities and features...
+        # For simplicity, it is assumed that the required files exist in the 
+        # "UCI HAR Dataset" subfolder in current working directory.
         # ----------------------------------------------------------------------
         # Load results of the study (Test or Train)...
         xTrain = read.table("UCI HAR Dataset/train/X_train.txt", header=FALSE)
