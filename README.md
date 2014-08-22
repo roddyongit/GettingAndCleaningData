@@ -237,11 +237,9 @@ Remove all "-", "()"
  
  `colnames(TestAndTrainMeanAndStd) = tidyVarNames`
         
-** Part 2 -- Extract only the measurements on the mean and std for each measurement.
-(Subset of the mean and std variables only). **
 
-Generates file ExtractMeanAndStdOnly.txt and stores it in the current working directory
-This file will not be uploaded to Coursera, it will only exist in the current working directory.
+**Generates file ExtractMeanAndStdOnly.txt and stores it in the current working directory
+This file will not be uploaded to Coursera, it will only exist in the current working directory.**
 
  `write.table(TestAndTrainMeanAndStd, file = "ExtractMeanAndStdOnly.txt",      
                     sep = ",", row.names=FALSE, quote=FALSE)`
@@ -251,7 +249,9 @@ This file will not be uploaded to Coursera, it will only exist in the current wo
 
 `AvgAllBySubjectActivity <-ddply(TestAndTrainMeanAndStd,.(subject,activity),colwise(mean)`
         
-****Append suffix "_colAVG" to all variables in final tidy data set****
+**Append suffix "_colAVG" to all variables in final tidy data set**
+
+(This is to make clear that the final data set contains the average of all columns mean and std from the modified data set)
 
   ` names(AvgAllBySubjectActivity) = paste(names (AvgAllBySubjectActivity),"_colAVG",sep="")`
   ` colnames(AvgAllBySubjectActivity)[1] <- "subject"` 
@@ -272,7 +272,7 @@ This file will be uploaded to Coursera. This is the final data set.
 
 
 ------------------------------------------------------------------
-Other notes:
+*Other notes:*
 
 Naming convention used for data sets and variables: [camelCase](http://en.wikipedia.org/wiki/CamelCase)
 
