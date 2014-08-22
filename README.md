@@ -179,6 +179,7 @@ Replace activity numbers with descriptive activity names (based on activity_labe
 
 
 **Project Requirement Step 1: Merges the training and test sets to create one data set.**
+
  Generates file TestAndTrainDataSet1.txt and stores it in the current working directory
  This file will not be uploaded to Coursera, it will only exist in the current working directory.
 
@@ -194,10 +195,11 @@ Replace activity numbers with descriptive activity names (based on activity_labe
 
         
  **Project requirement Part 2: Extracts only the measurements on the mean and standard deviation for each measurement.**
+
                
 `stdAndMean = features[grepl("mean\\()",tolower(features$V2)) | grepl("std\\()",tolower(features$V2)),]`
-`stdAndMeanVector = as.vector(stdAndMean$V2)   
-        TestAndTrainMeanAndStd =  mergedTestAndTrain[,c("subject","activity",stdAndMeanVector)]`
+`stdAndMeanVector = as.vector(stdAndMean$V2) `  
+`TestAndTrainMeanAndStd =  mergedTestAndTrain[,c("subject","activity",stdAndMeanVector)]`
     
  
 
@@ -235,8 +237,9 @@ Remove all "-", "()"
  
  `colnames(TestAndTrainMeanAndStd) = tidyVarNames`
         
- Part 2 -- Extract only the measurements on the mean and std for each measurement.
-Subset of the mean and std variables only. 
+** Part 2 -- Extract only the measurements on the mean and std for each measurement.
+(Subset of the mean and std variables only). **
+
 Generates file ExtractMeanAndStdOnly.txt and stores it in the current working directory
 This file will not be uploaded to Coursera, it will only exist in the current working directory.
 
@@ -257,7 +260,8 @@ This file will not be uploaded to Coursera, it will only exist in the current wo
 
 
         
- Project Requirement Step 5: Creates a second independent tidy data set with the average of each activity and each subject
+ **Project Requirement Step 5: Creates a second independent tidy data set with the average of each activity and each subject**
+
 This file will be uploaded to Coursera. This is the final data set.
 
 `write.table(AvgAllBySubjectActivity, file = "AvgAllBySubjectActivityDataSet2.txt",      
@@ -276,7 +280,7 @@ Naming convention used for data sets and variables: [camelCase](http://en.wikipe
 
 
 Measurement used: The details can be found in the CodeBoook.md in the 
-github repository: https://github.com/roddyongit/datacleaningproject 
+github repository: [https://github.com/roddyongit/GettingAndCleaningData](https://github.com/roddyongit/GettingAndCleaningData "GettingAndCleaningData Repo on Github")
 
 
 ----------
